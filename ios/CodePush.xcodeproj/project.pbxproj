@@ -15,18 +15,6 @@
 		5421FE311C58AD5A00986A55 /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5421FE301C58AD5A00986A55 /* CodePushTelemetryManager.m */; };
 		5498D8F61D21F14100B5EB43 /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498D8F51D21F14100B5EB43 /* CodePushUtils.m */; };
 		54FFEDE01BF550630061DD23 /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FFEDDF1BF550630061DD23 /* CodePushDownloadHandler.m */; };
-		6463C82D1EBA0CFB0095B8CD /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498D8F51D21F14100B5EB43 /* CodePushUtils.m */; };
-		6463C82E1EBA0CFB0095B8CD /* CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* CodePush.m */; };
-		6463C82F1EBA0CFB0095B8CD /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D51F391B6181C2000DA084 /* CodePushConfig.m */; };
-		6463C8301EBA0CFB0095B8CD /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FFEDDF1BF550630061DD23 /* CodePushDownloadHandler.m */; };
-		6463C8311EBA0CFB0095B8CD /* CodePushErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B762E8F1C9A5E9A006EF800 /* CodePushErrorUtils.m */; };
-		6463C8321EBA0CFB0095B8CD /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D4E6C1B96935000B397E9 /* CodePushPackage.m */; };
-		6463C8331EBA0CFB0095B8CD /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5421FE301C58AD5A00986A55 /* CodePushTelemetryManager.m */; };
-		6463C8341EBA0CFB0095B8CD /* CodePushUpdateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 540D20111C7684FE00D6EF41 /* CodePushUpdateUtils.m */; };
-		6463C8351EBA0CFB0095B8CD /* RCTConvert+CodePushInstallMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B9131BF9267B000BB2F0 /* RCTConvert+CodePushInstallMode.m */; };
-		6463C8361EBA0CFB0095B8CD /* RCTConvert+CodePushUpdateState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC09A61CC19EB700DDC0DD /* RCTConvert+CodePushUpdateState.m */; };
-		6463C8451EBA0D1F0095B8CD /* CodePush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
-		6463C8471EBA0D290095B8CD /* CodePush.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
 		810D4E6D1B96935000B397E9 /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D4E6C1B96935000B397E9 /* CodePushPackage.m */; };
 		81D51F3A1B6181C2000DA084 /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D51F391B6181C2000DA084 /* CodePushConfig.m */; };
 		8482F84C1E24C58300F793DB /* CodePush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
@@ -89,16 +77,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				8482F84C1E24C58300F793DB /* CodePush.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6463C8221EBA0CB60095B8CD /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				6463C8451EBA0D1F0095B8CD /* CodePush.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,18 +147,10 @@
 		F886644A1F4AD1EE0036D01B /* JWTDeprecations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTDeprecations.h; sourceTree = "<group>"; };
 		F886644B1F4AD1EE0036D01B /* JWTErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTErrorDescription.h; sourceTree = "<group>"; };
 		F886644C1F4AD1EE0036D01B /* JWTErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTErrorDescription.m; sourceTree = "<group>"; };
-		F886647B1F4ADB500036D01B /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodePush.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		58B511D81A9E6C8500147676 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6463C8211EBA0CB60095B8CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,7 +186,6 @@
 				F88664111F4AD1EE0036D01B /* JWT */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				C31BB4D5018A48D5288C5137 /* Frameworks */,
-				F886647B1F4ADB500036D01B /* libCodePush.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -402,14 +371,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6463C8461EBA0D230095B8CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6463C8471EBA0D290095B8CD /* CodePush.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8482F84D1E24C65E00F793DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,24 +426,6 @@
 			productReference = 134814201AA4EA6300B7C361 /* libCodePush.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6463C8231EBA0CB60095B8CD /* CodePush-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6463C82C1EBA0CB60095B8CD /* Build configuration list for PBXNativeTarget "CodePush-tvOS" */;
-			buildPhases = (
-				6463C8201EBA0CB60095B8CD /* Sources */,
-				6463C8211EBA0CB60095B8CD /* Frameworks */,
-				6463C8221EBA0CB60095B8CD /* CopyFiles */,
-				6463C8461EBA0D230095B8CD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CodePush-tvOS";
-			productName = "CodePush-tvOS";
-			productReference = F886647B1F4ADB500036D01B /* libCodePush.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -494,10 +437,6 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					6463C8231EBA0CB60095B8CD = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -515,7 +454,6 @@
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* CodePush */,
-				6463C8231EBA0CB60095B8CD /* CodePush-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -557,23 +495,6 @@
 				810D4E6D1B96935000B397E9 /* CodePushPackage.m in Sources */,
 				F88664531F4AD1EE0036D01B /* JWTAlgorithmESBase.m in Sources */,
 				F88664721F4AD1EE0036D01B /* JWTCoding+VersionTwo.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6463C8201EBA0CB60095B8CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6463C82D1EBA0CFB0095B8CD /* CodePushUtils.m in Sources */,
-				6463C82E1EBA0CFB0095B8CD /* CodePush.m in Sources */,
-				6463C82F1EBA0CFB0095B8CD /* CodePushConfig.m in Sources */,
-				6463C8301EBA0CFB0095B8CD /* CodePushDownloadHandler.m in Sources */,
-				6463C8311EBA0CFB0095B8CD /* CodePushErrorUtils.m in Sources */,
-				6463C8321EBA0CFB0095B8CD /* CodePushPackage.m in Sources */,
-				6463C8331EBA0CFB0095B8CD /* CodePushTelemetryManager.m in Sources */,
-				6463C8341EBA0CFB0095B8CD /* CodePushUpdateUtils.m in Sources */,
-				6463C8351EBA0CFB0095B8CD /* RCTConvert+CodePushInstallMode.m in Sources */,
-				6463C8361EBA0CFB0095B8CD /* RCTConvert+CodePushUpdateState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,44 +640,6 @@
 			};
 			name = Release;
 		};
-		6463C82A1EBA0CB60095B8CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = CodePush;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		6463C82B1EBA0CB60095B8CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = CodePush;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -774,15 +657,6 @@
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
 				58B511F11A9E6C8500147676 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6463C82C1EBA0CB60095B8CD /* Build configuration list for PBXNativeTarget "CodePush-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6463C82A1EBA0CB60095B8CD /* Debug */,
-				6463C82B1EBA0CB60095B8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
